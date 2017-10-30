@@ -1,0 +1,461 @@
+  /*.navbar {
+      text-align: center;
+      color: #652f85;
+      font-family: helvetica;
+      background-color:#fff;  
+      padding-right: 0;         
+      border-bottom: 3px solid #ffb6c1;
+      border-radius: none !important; 
+          }
+
+
+  .nav li {
+      margin-left: 30px;
+      margin-top: 10px;
+  }        
+
+  .icon {
+      float: right;
+      
+   }
+ .icon-bar{
+         background-color: grey;
+ }
+  
+  .clogotext {
+      height: 78px;
+      padding-top: 39px;
+      padding-left: 0;
+  }
+
+  .logotext {
+      float: left;
+      font-style: italic;
+   }
+
+   .navbar img {
+
+       height: 65px;
+       width: 65px;
+       margin-top: 13px;
+   }
+
+  .navbar h3 {
+      margin-top: 8px;
+      margin-bottom: 0; 
+  }
+
+  .menuitems{
+      background-color: #652f85;
+      width: 100%;
+      height: 30px;
+      padding-bottom: 7px;
+      padding-right: 45px !important;
+      margin-right: 0 !important;
+      margin-top: 20px;
+  }
+  .nav { 
+      margin-right: 2%;
+  }
+
+ .nav li {
+      margin-left: 30px;
+      margin-top: 0px;
+      height: 20px;
+      float: right;
+    }   
+    
+ nav ul li:hover {
+        
+        background-color:none !important;
+        /*border-bottom: 2px solid #fff;    /*to be less conspicuous
+        border-radius: 3px;*//*
+        height: 40px;
+    }  
+
+  nav ul li a {
+        color: #fff !important;
+        padding-top: 10px;
+        height: 20px;
+  }
+
+  nav ul li a:hover {
+        color: #ffb6c1 !important;
+  }
+
+ .Mwanzo .Mwanzo {
+        color: #ffffff !important;
+        background-color:none !important;
+        /*border-bottom: 2px solid #fff;
+        border-radius: 3px;*//*
+        height: 40px;
+ }
+
+  .searchsection {
+        width: 100%;
+        background-color:none;
+        float: right;
+        margin-right: 50px;
+        margin-top: 10px;
+ }
+
+.Makalabutton {
+        font-size: 15px;
+        color: #000;
+        height: 20px;
+        width: 60%;
+        background: none;
+        padding-right: 0px;
+        padding-left: 7px;
+        border-top: none;
+        border-bottom: none 2px #e46c2b;
+        border-left: none 2px #e46c2b;
+        border-right: none 2px #e46c2b;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 4px; 
+        border-bottom-right-radius: 4px; 
+        float: right;
+}
+
+
+.makala p {
+        display: inline-block;
+        margin-right: 7px;
+}
+
+.makala a  :hover {
+        color: #ffb6c1;
+        font-size: 17px;
+}
+
+.makalatitles {
+        position: relative;
+}
+
+.glyphicon-list-alt {
+        color: #ffb6c1;
+}
+
+.search {
+        padding-right: 0;
+        padding-left: 30px;
+}
+
+.searchbox { 
+       border: 1px solid  rgba(0,0,0, 0.4); 
+       border-radius: 4px;
+       border-top-right-radius: 0;
+       border-bottom-right-radius: 0;
+       background-color: none;
+       border-right: none;
+       margin-top: 0;
+}
+
+input::placeholder {
+  color: #cdcdcd;
+  /*rgba(255,182,193, 0.4); *//*}
+
+.Tafutabutton {
+       border: 1px solid #cdcdcd;
+       border-radius: 4px;
+       border-top-left-radius: 0;
+       border-bottom-left-radius: 0;
+       background: rgba(0,0,0, 0.4); 
+       border-left: none; 
+       margin-left: -4px;   
+} 
+
+.glyphicon-search {
+        color: #fff;
+}
+
+::-webkit-input-placeholder {
+        color: #000;
+        text-align: center;
+}
+
+.clear {
+       clear: both;            /* to solve float overlapping issues */ /*
+}/*
+/*
+ @media all and (max-width: 800px){
+         .Makalabutton {
+      width:100%;
+      margin:0!important; 
+    
+}
+
+  .searchsection {
+          width:50%;
+      float:right;
+      margin-right: 0px;
+ }
+.Tafutabutton {
+       border: 1px solid #cdcdcd;
+       border-radius: 4px;
+       border-top-left-radius: 0;
+       border-bottom-left-radius: 0;
+       border-left: none; 
+       margin-left: -4px;   
+}
+.searchbox { 
+       border: 1px solid  rgba(0,0,0, 0.4); 
+       border-radius: 4px;
+       border-top-right-radius: 0;
+       border-bottom-right-radius: 0;
+       border-right: none;
+       margin-top: 0;
+}
+ }
+/*  SECTIONS  *//*
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  *//*
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+
+/*  GROUPING  *//*
+.group:before,
+.group:after {
+	content:"";
+	display:table;
+}
+.group:after {
+	clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 *//*
+}
+
+/*  GRID OF THREE  *//*
+.span_3_of_3 {
+	width: 100%;
+}
+.span_2_of_3 {
+	width: 66.1%;
+}
+.span_1_of_3 {
+	width: 32.2%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS *//*
+
+@media only screen and (max-width: 480px) {
+	.col { margin: 1% 0 1% 0%;}
+	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+}*/
+/*baskl*/
+
+nav {
+  padding-top: 7px;
+}
+
+.logorow{
+        background-color: white;
+}
+.nav.navbar-nav.navbar-right li{
+  color: white;
+  text-transform: uppercase;
+}
+
+.collapse.navbar-collapse {
+  background-color: #652f85;
+}
+
+.brand {
+  padding-top: 0px;
+  padding-left: 10px;
+  margin-bottom: 6px;
+  color: #ffffff !important;
+}
+.container ul li:hover {
+  color: #ffffff !important;
+  background-color: inherit!important;
+  /*border-bottom: 2px solid burlywood;*/
+  border-radius: 3px;
+}
+
+.nav li {
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.dropdown{
+cursor: pointer;
+}
+.stylish-input-group .input-group-addon{
+    background: white !important;
+    border-bottom-right-radius:15px;
+     border-top-right-radius:15px; 
+}
+.stylish-input-group .form-control{
+	border-right:0; 
+	box-shadow:0 0 0; 
+  border-color:#ccc;
+  border-bottom-left-radius: 15px;
+   border-top-left-radius:15px;
+    
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+   
+}
+/*css for mobile application*/
+
+@media (max-width: 625px){
+  .brand img {
+    width: 45px;
+    left: 20px;
+    height: 40px;
+    position: relative;
+    margin-left: 35%;
+    margin-top:0px;
+  }
+  .navbar {
+    background-color:#652f85;
+    border: #652f85;
+    height: 70px;
+     border-bottom: 3px solid #ffb6c1;
+  }
+  .nav li{
+    font-size: 9px;
+  }
+   .navbar-toggle{
+    margin-right: 8px;
+    margin-top: 8px;
+ 
+  }
+  .logotext {
+      float: left;
+      font-style: italic;
+      font-size: 16px;
+   }
+.icon {
+      float: right;
+      
+   }
+    .img {
+   margin-top: 0;
+   position: relative;
+  }
+  .navbar-header{
+    height: 35px;
+    background-color:#652f85 ;
+  }
+  .row{
+       background-color: white;
+  }
+      nav{
+        padding-top: 0px;
+      }
+}
+/*css for tablets*/
+@media (min-width:400px)  {
+  .brand img {
+    width: 60px;
+    position: relative;
+    margin-left: 35%;
+    height: 55px;
+    margin-top:0px;
+  }
+  .navbar {
+    background-color: #652f85;
+    border: #652f85;
+    letter-spacing: 4px;
+    height: 80px;
+     border-bottom: 3px solid #ffb6c1;
+    
+  }
+  .nav li{
+    font-size: 11px;
+
+  }
+  .navbar-toggle{
+    margin-right: 15px;
+    margin-top: 8px;
+ 
+  }
+  
+  .logotext {
+      float: left;
+      font-style: italic;
+      font-size: 19px;
+   }
+     .icon {
+      float: right;
+      
+   }
+    .img {
+   margin-top: 0;
+   position: relative;
+  }
+  .navbar-header{
+    height: 35px;
+    background-color:#652f85 ;
+    
+  }
+  .row{
+       background-color: white;
+  }
+      nav{
+        padding-top: 0px;
+      }
+      
+}
+
+  /*css for desktop application*/
+@media only screen and (min-width: 768px) {
+  .brand img {
+    width: 65px;
+    height: 65px;
+    margin-top: 0px;
+    position: relative;
+    margin-left: 35%;
+    
+
+  }
+ 
+  .navbar {
+    background-color:white;
+    letter-spacing: 4px;
+    height: 90px;
+     border-bottom: 3px solid #ffb6c1;
+
+  }
+
+  .nav li a{
+    margin-right: 16px;
+    font-size: 15px;
+    padding:0;
+  }
+
+  .img {
+   margin-top: 0;
+   position: relative;
+  }
+
+ .clogotext {
+      height: 78px;
+      padding-top: 39px;
+      padding-left: 0;
+  }
+
+  .logotext {
+      float: left;
+      font-style: italic;
+   }
+     .icon {
+      float: right;
+      
+   }
+}

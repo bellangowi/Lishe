@@ -1,0 +1,35 @@
+ <!-- Modal  (click)="onClick1($event)" -->
+      
+      <div id="myModal" class="modal">
+       <div class="modal-content">
+         <button class="close" (click)="onClick($event)">&times;</button>
+         <div class="modal-header">
+            <p>Kamilisha fomu hii na kututumia taharifa zako ili
+                kupokea Makala zetu bure kupitia Whatsapp
+                au <a class="modallinks"><button class="jiungebutton" 
+                (click)="onClick1($event)">Jiunge na program
+                 </button></a> kupata mafunzo kutoka kwa mwalimu wetu</p>
+                 <br><br>      
+
+            <div class="clear"></div>
+         </div>
+         <div class="modal-body">
+           
+             <form>
+             <input type="text" name="comment_author" id="comment_author" 
+             class="contactfield" value=""  placeholder="Namba ya Whatsapp" 
+             required="required" [(ngModel)]="subscriber.phone_number">
+             </form>
+
+         </div>
+         <div class="modal-footer">
+             <a class="modallinks"><button class="sendbutton" (click)="add()">Tuma taharifa</button></a>
+         </div>
+
+       </div>
+      </div>
+      
+      <br><br><br><br>
+      <br><br><br><br>
+    
+    

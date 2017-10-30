@@ -1,0 +1,121 @@
+.area{
+  padding: 10px;
+   background-color: #fff;
+        box-shadow: 2.5px 2.5px 1.25px 5px #ddd inset;
+
+      }
+   
+.btn{
+  padding:1.3px;
+}
+  
+.Mwanzo .Mwanzo {
+        color: #ffffff !important;
+        background-color:none !important;
+        /*border-bottom: 2px solid #fff;
+        border-radius: 3px;*/
+        height: 40px;
+ }
+
+.clear {
+       clear: both;            /* to solve float overlapping issues */ 
+}
+
+ .ccontainer {
+        background-color:#f7f7f7;
+ }
+
+.box {
+        width: 100%;
+        padding:40px;
+        background-color: #fff;
+        border: 1px solid #cdcdcd;
+        margin-bottom: 20px;
+}
+
+.box > h3 {
+       color: green;
+       margin-bottom: 25px;
+}
+.oneimage {
+        height: 420px;
+        float: left; 
+        width: 95%; 
+        margin-left: 4%;
+        margin-bottom: 0.5em;
+}
+
+.twoimage {
+        height: 420px;
+        float: left; 
+        width: 95%; 
+        margin-left: 4%;
+        margin-bottom: 0.5em;
+}
+
+.quote {
+        font-size: 27px;
+        font-style: italic;
+        color: #CDCDCD;
+}
+
+.somazaidi {
+        color : green;
+        height: 20px;
+        width: auto;
+        margin-right: 0px; 
+        float: right;
+        background: none;
+        border: none;
+ }
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+
+ @media all and (max-width: 800px){
+     .box {
+        width: 100%;
+        float: none;
+        margin: 0px;
+        padding: 20px;
+}  
+        .oneimage {
+        height: auto;
+        width: 100%; 
+        margin:0px;
+}  
+.twoimage {
+        height: auto;
+        width: 100%; 
+        margin:0px;
+}
+.quote {
+        font-size: 14px;
+       
+}
+.box > h3 {
+     
+       font-size: 17px;
+}
+p{
+        font-size:12px;
+}
+.somazaidi{
+        font-size:12px;
+}
+.ccontainer {
+    
+       
+        padding:40px;
+
+ }
+
+ }
+ 
